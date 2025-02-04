@@ -26,10 +26,10 @@ const config: Config = {
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
-  // i18n: {
-  //   defaultLocale: 'en',
-  //   locales: ['en'],
-  // },
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en'],
+  },
 
   presets: [
     [
@@ -66,6 +66,7 @@ const config: Config = {
 
   themeConfig: {
     algolia: {
+      appId: 'K613CN4MVW',
       apiKey: 'ffb14c5bc3b1d80889431912f9a24867', // Replace with your Algolia API key
       indexName: 'knowledge_base', // Replace with your index name
     },
