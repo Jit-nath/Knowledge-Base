@@ -65,10 +65,10 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // algolia: {
-    //   apiKey: 'YOUR_API_KEY', // Replace with your Algolia API key
-    //   indexName: 'YOUR_INDEX_NAME', // Replace with your index name
-    // },
+    algolia: {
+      apiKey: 'ffb14c5bc3b1d80889431912f9a24867', // Replace with your Algolia API key
+      indexName: 'knowledge_base', // Replace with your index name
+    },
     onBrokenLinks: 'ignore',
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
