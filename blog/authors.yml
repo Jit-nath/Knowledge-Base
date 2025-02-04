@@ -15,9 +15,15 @@ slorber:
   image_url: https://github.com/slorber.png
   page:
     # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
+    permalink: "/all-sebastien-lorber-articles"
   socials:
     x: sebastienlorber
     linkedin: sebastienlorber
     github: slorber
     newsletter: https://thisweekinreact.com
+
+Jit:
+  name: Jit Debnath
+  title: Core Developer @ LNC
+  url: https://github.com/Jit-nath
+  image_url: https://avatars.githubusercontent.com/u/146635600?s=400&u=b00a52267468ded7dbba079f5f0d752cb64d5def&v=4

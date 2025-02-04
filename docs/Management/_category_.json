@@ -1,0 +1,8 @@
+{
+  "label": "Management",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Things we know about management."
+  }
+}
