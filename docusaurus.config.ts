@@ -50,10 +50,6 @@ const config: Config = {
       indexName: 'lnc-knowledge-base',
       contextualSearch: true,
       externalUrlRegex: 'external\\.com|domain\\.com',
-      replaceSearchResultPathname: {
-        from: '/docs/',
-        to: '/',
-      },
       searchParameters: {},
       searchPagePath: 'false',
       insights: false,
