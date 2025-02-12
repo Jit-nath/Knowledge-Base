@@ -23,9 +23,7 @@ const config: Config = {
       'classic',
       {
         docs: {
-          sidebarPath: './sidebars.ts',
-          editUrl:
-            'https://github.com/LNC-Network/Knowledge-Base/',
+          sidebarPath: './sidebars.ts'
         },
         blog: {
           showReadingTime: true,
@@ -33,12 +31,9 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          editUrl:
-            'https://github.com/LNC-Network/Knowledge-Base/',
-
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
+          onUntruncatedBlogPosts: 'ignore',
         },
         theme: {
           customCss: './src/css/custom.css',

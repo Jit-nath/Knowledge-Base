@@ -8,7 +8,7 @@ tags: []
 ## Introduction
 
 Artificial Intelligence (AI) is a rapidly growing field that has the potential to revolutionize many aspects of our lives. In this blog post, we will explore the basics of AI and how you can get started in this exciting field.
-
+<!-- truncate -->
 ## What is AI?
 
 AI refers to the simulation of human intelligence in machines that are programmed to think and learn like humans. These machines can perform tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation.
