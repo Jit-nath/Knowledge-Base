@@ -38,11 +38,26 @@ const config: Config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+
       } satisfies Preset.Options,
     ],
   ],
 
   themeConfig: {
+    algolia: {
+      appId: '9V55KHWV0Y',
+      apiKey: '2779c44d60b89fe93fac8c68e2074d6b',
+      indexName: 'lnc-knowledge-base',
+      contextualSearch: true,
+      externalUrlRegex: 'external\\.com|domain\\.com',
+      replaceSearchResultPathname: {
+        from: '/docs/',
+        to: '/',
+      },
+      searchParameters: {},
+      searchPagePath: 'false',
+      insights: false,
+    },
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: '',
