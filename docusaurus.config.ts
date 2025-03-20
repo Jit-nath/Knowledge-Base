@@ -22,7 +22,7 @@ const config: Config = {
     {
       tagName: 'script',
       attributes: {
-        async: true,
+        async:"true",
         src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5587965043502846',
         crossorigin: 'anonymous'
       }
