@@ -1,19 +1,9 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+Tech:
+  label: Tech
+  permalink: /Tech
+  description: Everything related to tech
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
-
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
-
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+Research:
+  label: Research
+  permalink: /Research
+  description: Researches of LNC Community

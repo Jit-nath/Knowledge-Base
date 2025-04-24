@@ -1,29 +1,10 @@
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
-  page: true
-  socials:
-    x: yangshunz
-    github: yangshun
-
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
-  page:
-    # customize the url of the author page at /blog/authors/<permalink>
-    permalink: "/all-sebastien-lorber-articles"
-  socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
-
 Jit:
   name: Jit Debnath
   title: Core Developer @ LNC
-  url: https://github.com/Jit-nath
-  image_url: https://avatars.githubusercontent.com/u/146635600?s=400&u=b00a52267468ded7dbba079f5f0d752cb64d5def&v=4
+  url: https://www.linkedin.com/in/jit-debnath-a4681a268/
+  image_url: https://media.licdn.com/dms/image/v2/D5603AQF_TZHuiuIAGw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711348792467?e=1750896000&v=beta&t=UlJg2ue7yYdYEM9gyrL8ZCPLH5VRvaRiXyDotvSy8Qw
+  page: true
+  permalink: "/jit"
+  socials:
+    linkedin: jit-debnath-a4681a268
+    github: Jit-nath

@@ -5,8 +5,11 @@ authors: [Jit]
 tags: [welcome]
 ---
 
-This is a blog page.
+# Welcome to the article section
+
+Write your article about tech and corresponding fileds, your work will be public and shown to the words
 
 <!-- truncate -->
 
-Latest blogs will be available automatically.
+this part is truncated.  
+write your name in author section and start writing

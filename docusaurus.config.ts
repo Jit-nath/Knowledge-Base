@@ -69,7 +69,7 @@ const config: Config = {
       title: "",
       logo: {
         alt: "My Site Logo",
-        src: "img/logo.svg",
+        src: "img/favicon.ico",
       },
       items: [
         {
@@ -80,13 +80,18 @@ const config: Config = {
         },
         {
           to: "/blog",
-          label: "Blog",
+          label: "Articles",
           position: "left",
+        },
+        {
+          href: "https://lnc-community.vercel.app/",
+          label: "LNC Community",
+          position: "right",
         },
         {
           href: "https://github.com/LNC-Network/Knowledge-Base",
           label: "GitHub",
-          position: "left",
+          position: "right",
         },
       ],
     },
