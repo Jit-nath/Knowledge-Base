@@ -11,34 +11,21 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: "Effortless Knowledge Management",
+    title: "",
     Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
-    description: (
-      <>
-        Your go-to platform for organizing, accessing, and growing technical and
-        management insights.
-      </>
-    ),
+    description: <>Internal docs for new comers and developers</>,
   },
   {
-    title: "Stay Focused, Stay Productive",
+    title: "",
     Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
     description: (
-      <>
-        No distractions—just structured and searchable knowledge, so you can
-        concentrate on what truly matters.
-      </>
+      <>Detailed and quality contents based on real life experience</>
     ),
   },
   {
-    title: "Built with Speed & Flexibility",
+    title: "",
     Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
-    description: (
-      <>
-        Powered by modern web technologies, ensuring a seamless and responsive
-        browsing experience.
-      </>
-    ),
+    description: <>Ship greater products with ease</>,
   },
 ];
 
@@ -48,9 +35,8 @@ function Feature({ title, Svg, description }: FeatureItem) {
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
+      <div className="text--center padding-horiz--sm">
+        <p style={{ fontSize: "1.2rem" }}>{description}</p>
       </div>
     </div>
   );
@@ -59,7 +45,7 @@ function Feature({ title, Svg, description }: FeatureItem) {
 export default function HomepageFeatures(): ReactNode {
   return (
     <section className={styles.features}>
-      <div className="container">
+      <div className="container ">
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
